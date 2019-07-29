@@ -16,8 +16,8 @@ nginx.conf like below:
       limit_conn_zone $binary_remote_addr zone=addr:15m;
 
 
-		## https://www.digitalxxxxxx.com/community/tutorials/how-to-increase-pagespeed-score-by-changing-your-nginx-configuration-on-ubuntu-16-04
-	  gzip on; ## use cpu
+	## https://www.digitalxxxxxx.com/community/tutorials/how-to-increase-pagespeed-score-by-changing-your-nginx-configuration-on-ubuntu-16-04
+    gzip on; ## use cpu
     gzip_comp_level    4; ## https://serverfault.com/questions/253074/what-is-the-best-nginx-compression-gzip-level
     gzip_min_length    256;
     gzip_proxied       any;
