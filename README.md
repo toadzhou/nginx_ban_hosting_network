@@ -66,6 +66,6 @@ nginx.conf like below:
 	include /etc/nginx/banned.d/*.conf;
     include /etc/nginx/banned.d/*.ini;
 	include "/etc/nginx/my_config";
-}
+    }
 
 
