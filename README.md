@@ -155,6 +155,12 @@ CRON auto deploy:
 		copy($file, $target_file);
 	    }
 
+	    $my_allowed_conf = "allow 8.8.8.8; # your beloved ip".PHP_EOL.
+	    "";
+	    file_put_contents($folder_banned_nginx . "/my_allowed.conf", $my_allowed_conf);
+
+
+
 	    chmod($folder_banned_nginx, 0777);
 	    $nginx_t_file = "/tmp/nginx_t_file";
 	    shell_exec("sudo nginx -t >$nginx_t_file 2>$nginx_t_file");
