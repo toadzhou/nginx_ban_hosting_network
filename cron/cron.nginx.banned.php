@@ -62,13 +62,13 @@ if(
     $folders = glob($temporary_unzip_folder."/*");
     foreach($folders as $folder){
 	if(strpos($folder, "-")!==false){
-	    $folder_I_got = $folder;
+	    $main_folder = $folder;
 	    break;
 	}
     }
-    echo 'folder_I_got: '.$folder_I_got . PHP_EOL;
+    echo '$main_folder: '.$main_folder . PHP_EOL;
     ## exit;
-    $files = glob($folder_I_got."/*");
+    $files = glob($main_folder."/*");
     foreach($files as $file){
 	if(is_dir($file)){
 	    continue;
