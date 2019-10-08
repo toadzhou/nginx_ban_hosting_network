@@ -1,0 +1,80 @@
+deny 5.253.84.0/24; ## ISP: iHell & 4 JS Crystal Pty Ltd, Country: Cyprus
+deny 45.64.107.0/24; ## ISP: LeapSwitch Networks Pvt Ltd, Country: India
+deny 45.120.48.0/24; ## ISP: GW Labs IT Solution, Country: India
+deny 45.120.49.0/24; ## ISP: GW Labs IT Solution, Country: India
+deny 45.120.50.0/24; ## ISP: GW Labs IT Solution, Country: India
+deny 45.120.51.0/24; ## ISP: GW Labs IT Solution, Country: India
+deny 45.125.245.0/24; ## ISP: HostRoyale Technologies Japan Network, Country: India
+deny 45.125.247.0/24; ## ISP: Ransom IT Trust, Country: India
+deny 45.248.76.0/24; ## ISP: Host Universal Pty Ltd Sydney Services, Country: Australia
+deny 45.248.77.0/24; ## ISP: Host Universal Pty Ltd Brisbane Services, Country: Australia
+deny 45.248.78.0/24; ## ISP: Host Universal Pty Ltd Perth Services, Country: Australia
+deny 45.248.79.0/24; ## ISP: Host Universal Pty Ltd Adelaide Services, Country: Australia
+deny 45.252.188.0/24; ## ISP: HostRoyale_Technologies_Japan_Network, Country: India
+deny 45.252.189.0/24; ## ISP: HostRoyale_Technologies, Country: India
+deny 45.252.191.0/24; ## ISP: HostRoyale_Technologies, Country: India
+deny 103.25.58.0/24; ## ISP: Ransom IT Trust, Country: Australia
+deny 103.25.59.0/24; ## ISP: Ransom IT Trust, Country: Australia
+deny 103.75.8.0/22; ## ISP: AK Digital Media, Country: India
+deny 103.108.228.0/24; ## ISP: Alpha Layer Pty Ltd, Country: Australia
+deny 103.109.77.0/24; ## ISP: NATHAN STEELE, Country: Australia
+deny 103.138.86.0/24; ## ISP: 1iT Pty Ltd, Country: Australia
+deny 103.139.78.0/24; ## ISP: TDL Sydney POP, Country: New Zealand
+deny 103.192.80.0/24; ## ISP: Express Web Studio Limited, Country: New Zealand
+deny 103.194.113.0/24; ## ISP: HostRoyale Technologies IP Network, Country: India
+deny 103.194.115.0/24; ## ISP: Ransom IT Trust, Country: India
+deny 103.216.220.0/24; ## ISP: Host Universal Pty Ltd, Country: Australia
+deny 103.216.221.0/24; ## ISP: Host Universal Pty Ltd, Country: Australia
+deny 103.216.223.0/24; ## ISP: Host Universal Pty Ltd, Country: Australia
+deny 103.217.254.0/24; ## ISP: Alpha Layer Pty Ltd, Country: United States
+deny 103.221.232.0/24; ## ISP: HostRoyale Technologies India Network, Country: India
+deny 103.221.234.0/24; ## ISP: HostRoyale Technologies India Network, Country: India
+deny 103.221.235.0/24; ## ISP: HostRoyale Technologies India Network, Country: India
+deny 115.165.170.0/24; ## ISP: Mach Internet, Country: Australia
+deny 124.150.139.0/24; ## ISP: Express Web Studio Limited, Country: New Zealand
+deny 144.48.36.0/24; ## ISP: Ransom IT Infrastructure, Country: India
+deny 144.48.37.0/24; ## ISP: Ransom IT Infrastructure, Country: India
+deny 144.48.38.0/24; ## ISP: Ransom IT Infrastructure, Country: India
+deny 144.48.39.0/24; ## ISP: Ransom IT Infrastructure, Country: India
+deny 157.119.40.0/24; ## ISP: LeapSwitch Networks Pvt Ltd, Country: India
+deny 157.119.41.0/24; ## ISP: LeapSwitch Networks Pvt Ltd, Country: India
+deny 157.119.42.0/24; ## ISP: LeapSwitch Networks Pvt Ltd, Country: India
+deny 157.119.43.0/24; ## ISP: LeapSwitch Networks Pvt Ltd, Country: India
+deny 163.47.17.0/24; ## ISP: Ransom IT Sydney VPS Services, Country: Australia
+deny 163.47.20.0/24; ## ISP: Ransom IT Sydney Services, Country: Australia
+deny 163.47.21.0/24; ## ISP: Ransom IT Auckland Services, Country: Australia
+deny 180.149.228.0/24; ## ISP: Ransom_IT_Infrastructure, Country: India
+deny 180.149.229.0/24; ## ISP: Ransom_IT_Infrastructure, Country: India
+deny 180.149.230.0/24; ## ISP: Ransom_IT_Infrastructure, Country: India
+deny 180.149.231.0/24; ## ISP: Host Universal Pty Ltd Auckland Services, Country: India
+deny 194.34.106.0/24; ## ISP: iHell & 4 JS Crystal Pty Ltd., Country: United Kingdom
+deny 202.6.118.0/24; ## ISP: Express Web Studio Limited, Country: New Zealand
+deny 202.94.174.0/24; ## ISP: HostRoyale_IP_Network, Country: India
+deny 202.94.175.0/24; ## ISP: HostRoyale_IP_Network, Country: India
+deny 2001:df4:fc00::/48; ## ISP: , Country: New Zealand
+deny 2400:9f40::/32; ## ISP: , Country: India
+deny 2402:7340:1::/48; ## ISP: , Country: Australia
+deny 2402:7340:2::/48; ## ISP: , Country: Australia
+deny 2402:9e80:6::/48; ## ISP: , Country: Hong Kong
+deny 2402:bd80::/32; ## ISP: , Country: India
+deny 2402:bd82::/32; ## ISP: , Country: New Zealand
+deny 2402:bd83::/32; ## ISP: , Country: New Zealand
+deny 2403:42c0::/32; ## ISP: , Country: India
+deny 2404:ddc0:6000::/36; ## ISP: , Country: New Zealand
+deny 2404:f780:2::/48; ## ISP: , Country: Australia
+deny 2404:f780:4::/48; ## ISP: , Country: Australia
+deny 2404:f780:5::/48; ## ISP: , Country: Australia
+deny 2404:f780:8::/48; ## ISP: , Country: Australia
+deny 2405:f180::/32; ## ISP: , Country: India
+deny 2406:d500:4::/48; ## ISP: , Country: Australia
+deny 2406:d500:6::/48; ## ISP: , Country: Australia
+deny 2406:d500:9::/48; ## ISP: , Country: Australia
+deny 2406:d500:12::/48; ## ISP: , Country: Australia
+deny 2406:d500:14::/48; ## ISP: , Country: Australia
+deny 2406:d500:ee::/48; ## ISP: , Country: Australia
+deny 2406:d501::/32; ## ISP: , Country: Australia
+deny 2406:d501:f::/48; ## ISP: , Country: Australia
+deny 2406:d501:ee::/48; ## ISP: , Country: Australia
+deny 2407:3b80::/32; ## ISP: , Country: India
+deny 2a09:54c0::/48; ## ISP: , Country: Cyprus
+deny 2a0d:7f47::/48; ## ISP: , Country: Australia
