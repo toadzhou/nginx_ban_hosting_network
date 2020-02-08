@@ -73,6 +73,18 @@ if(
 	if(is_dir($file)){
 	    continue;
 	}
+	    
+	 ## we can exclude google.
+        if(
+            strpos(strtolower(basename($file)), "google")!==false
+            ){
+            echo 'Skipping file: '.$file . PHP_EOL;
+            $target_file = $folder_banned_nginx."/".basename($file);
+            echo 'Removing target: '.$target_file . PHP_EOL;
+            unlink($target_file);
+            continue;
+        }
+	    
 	echo 'copying file: '.$file . PHP_EOL;
 	$target_file = $folder_banned_nginx."/".basename($file);
 	echo 'target_file: '.$target_file . PHP_EOL;
